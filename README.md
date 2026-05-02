@@ -14,7 +14,6 @@ Anachronia, deutsche v2.0
 - **Beide Spiele auf einer CD** – Enemy 1 und Enemy 2
 - **Alle Level freigeschaltet**, Spielstart immer in Level 1
 - **Sauberer Start** ohne WHDLoad-Splash
-- **F10 im Spiel** kehrt zurück zum CD-Auswahl-Menü
 
 ## Credits
 
