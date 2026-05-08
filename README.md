@@ -5,7 +5,7 @@ Anachronia, deutsche v2.0
 
 - **Compilation:** S. Kaufmann (2026)
 - **WHDLoad-Slaves:** Wepl ([whdload.de](https://www.whdload.de))
-- **Enemy:** ([Anachronia.ch](https://www.anachronia.ch)) (Besten Dank an André Wüthrich)
+- **Enemy:** [Anachronia.ch](https://www.anachronia.ch) (Besten Dank an André Wüthrich)
 - **System:** CD32 mit 1,5 MB FastRAM
 
 ## Features
