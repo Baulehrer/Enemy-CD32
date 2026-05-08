@@ -1,4 +1,4 @@
-# Enemy – v2.0.1
+# Enemy – v2.0.2
 
 Enemy 1 (Tempest of Violence) + Enemy 2 (Missing in Action)
 Anachronia, deutsche v2.0
@@ -16,6 +16,12 @@ Anachronia, deutsche v2.0
 - **Sauberer Start** ohne WHDLoad-Splash
 
 ## Changelog
+
+### v2.0.2
+- Auswahl-Menü neu gestaltet: Box-Layout mit zentriertem Titel,
+  Anachronia (www.anachronia.ch) als Quelle ergänzt, JoyDebug-Eintrag
+  entfernt
+- Versionsanzeige im CLI-Menü auf v2.0.2 aktualisiert
 
 ### v2.0.1
 - Fix: Enemy-2-Auswahl im Menü (Echo überschrieb Return-Code zwischen
