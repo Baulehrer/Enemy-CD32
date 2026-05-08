@@ -5,7 +5,8 @@ Anachronia, deutsche v2.0
 
 - **Compilation:** S. Kaufmann (2026)
 - **WHDLoad-Slaves:** Wepl ([whdload.de](https://www.whdload.de))
-- **System:** CD32 mit 2 MB FastRAM
+- **Enemy:** ([Anachronia.ch](https://www.anachronia.ch)) (Besten Dank an André Wüthrich)
+- **System:** CD32 mit 1,5 MB FastRAM
 
 ## Features
 
@@ -26,7 +27,6 @@ Anachronia, deutsche v2.0
 ### v2.0.1
 - Fix: Enemy-2-Auswahl im Menü (Echo überschrieb Return-Code zwischen
   `Menu` und `IF WARN`, dadurch wurde immer Enemy 1 geladen)
-- RAM-Anforderung in der README korrigiert (2 MB statt 1,5 MB FastRAM)
 
 ### v2.0
 - Initial Release
