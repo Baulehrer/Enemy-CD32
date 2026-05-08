@@ -3,9 +3,9 @@
 Enemy 1 (Tempest of Violence) + Enemy 2 (Missing in Action)
 Anachronia, deutsche v2.0
 
-- **Compilation:** S. Kaufmann (2026)
-- **WHDLoad-Slaves:** Wepl ([whdload.de](https://www.whdload.de))
 - **Enemy:** [Anachronia.ch](https://www.anachronia.ch) (Besten Dank an André Wüthrich)
+- **WHDLoad-Slaves:** Wepl ([whdload.de](https://www.whdload.de))
+- **Compilation:** S. Kaufmann (2026)
 - **System:** CD32 mit 1,5 MB FastRAM
 
 ## Features
