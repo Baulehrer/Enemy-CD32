@@ -10,7 +10,7 @@ Anachronia, deutsche v2.0
 ## Features
 
 - **BoxArt-Boot-Logo** vor der Auswahl
-- **Auswahl-Menü** (Joypad oder Tastatur, sofortiger Start beim Druck)
+- **Auswahl-Menü** (Tastatur: 1/2 oder Pfeiltasten; **Joypad-Eingabe noch im Testing**)
 - **Beide Spiele auf einer CD** – Enemy 1 und Enemy 2
 - **Alle Level freigeschaltet**, Spielstart immer in Level 1
 - **Sauberer Start** ohne WHDLoad-Splash
