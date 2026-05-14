@@ -1,4 +1,4 @@
-# Enemy – v2.2
+# Enemy – v2.2.1
 
 Enemy 1 (Tempest of Violence) + Enemy 2 (Missing in Action)
 Anachronia, **deutsche v2.0 + englische v2.0** auf einer CD
@@ -22,6 +22,23 @@ Anachronia, **deutsche v2.0 + englische v2.0** auf einer CD
 - **Sauberer Start** ohne WHDLoad-Splash
 
 ## Changelog
+
+### v2.2.1
+- **Joypad funktioniert** — drei Bugs in `menu.asm` gefixt:
+  - `JP_TYPE_MOUSE`-Konstante stand auf `$10000000`. Das ist tatsächlich
+    `JP_TYPE_GAMECTLR` (CD32-Pad). Mein Mouse-Skip hat damit den echten
+    Pad als „Maus" verworfen und übersprungen. Korrekt: `MOUSE=$20000000`,
+    `GAMECTLR=$10000000`
+  - `JPB_BUTTON_GREEN`/`YELLOW`/`PLAY` waren auf den falschen Bit-
+    Positionen (15/16/12). Verifiziert via `tools/joydebug/joydebug.asm`:
+    GREEN=3, YELLOW=4, PLAY=5
+  - Manche USB-Pads liefern in FS-UAE ein non-kanonisches Bit-Mapping:
+    Directions in den unteren 4 Bits (UP=3, DOWN=2, LEFT=1, RIGHT=0),
+    Buttons in Bits 20-23. Der Poll testet jetzt beide Layouts. GREEN
+    (Bit 3) wurde aus dem Fire-Mask entfernt, weil es auf diesen Pads
+    mit UP kollidiert
+- Diagnose-Overlay (`LL:`/`P1:`) aus dem Boot-Menü entfernt — diente nur
+  zur Joypad-Bit-Identifikation
 
 ### v2.2
 - Boot-Menü auf Cursor-Navigation umgestellt (`[*]`-Marker, ANSI-Position-
