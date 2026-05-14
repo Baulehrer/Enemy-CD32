@@ -1,4 +1,4 @@
-# Enemy – v2.1
+# Enemy – v2.2
 
 Enemy 1 (Tempest of Violence) + Enemy 2 (Missing in Action)
 Anachronia, **deutsche v2.0 + englische v2.0** auf einer CD
@@ -11,16 +11,31 @@ Anachronia, **deutsche v2.0 + englische v2.0** auf einer CD
 ## Features
 
 - **BoxArt-Boot-Logo** vor der Auswahl
-- **4-Wege-Auswahl-Menü** (Tastatur: `1`/`2`/`3`/`4` oder Pfeile/Pad-Buttons)
-  - `1` → Enemy 1 (DE)
-  - `2` → Enemy 2 (DE)
-  - `3` → Enemy 1 (EN) — *neu in v2.1*
-  - `4` → Enemy 2 (EN) — *neu in v2.1*
-- **Alle vier Spielversionen auf einer CD** – DE + EN, Enemy 1 + Enemy 2
+- **4-Wege-Auswahl-Menü** mit Cursor-Navigation
+  - `[*]` markiert den aktiven Eintrag
+  - `TAB` / `BACKSPACE` bewegt den Cursor (Wrap an beiden Enden)
+  - `SPACE` / `ENTER` startet den markierten Eintrag
+  - `1` / `2` / `3` / `4` startet direkt
+  - Joypad: D-Pad navigiert, Color-Button (RED/BLUE/GREEN/YELLOW) startet
+- **Vier Spielversionen auf einer CD** – DE + EN, Enemy 1 + Enemy 2
 - **Alle Level freigeschaltet**, Spielstart immer in Level 1
 - **Sauberer Start** ohne WHDLoad-Splash
 
 ## Changelog
+
+### v2.2
+- Boot-Menü auf Cursor-Navigation umgestellt (`[*]`-Marker, ANSI-Position-
+  Sequenzen für In-Place-Redraw)
+- `TAB` / `BACKSPACE` als robuste Tastatur-Navigation — funktioniert auch
+  in FS-UAE, das mit `joystick_port_1_mode = cd32 gamepad` die PC-
+  Pfeiltasten an den Pad-Emulator weiterreicht und damit aus dem
+  Amiga-Keyboard-Stream nimmt
+- `SPACE` / `ENTER` bestätigen, `1`-`4` weiterhin Direktstart
+- Joypad: D-Pad steuert Cursor, alle vier Color-Buttons starten
+- Port-0-Polling entfernt (Trackpad/Maus-Klicks in FS-UAE wurden sonst
+  als „Confirm" interpretiert und starteten zufällig Spiele)
+- Joypad-Idle-Snapshot wird jetzt vor den Bit-Tests fortgeschrieben —
+  gehaltener D-Pad-Druck triggert nicht mehr jeden 50ms-Tick neu
 
 ### v2.1
 - Englische Versionen von Enemy 1 und Enemy 2 ergänzt (Tasten `3` + `4`)
